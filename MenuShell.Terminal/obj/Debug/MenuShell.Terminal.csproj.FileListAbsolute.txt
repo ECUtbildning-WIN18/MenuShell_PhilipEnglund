@@ -1,0 +1,9 @@
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\bin\Debug\MenuShell.Terminal.exe
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\bin\Debug\MenuShell.Terminal.pdb
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\obj\Debug\MenuShell.Terminal.csprojAssemblyReference.cache
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\obj\Debug\MenuShell.Terminal.csproj.CoreCompileInputs.cache
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\obj\Debug\MenuShell.Terminal.exe
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\obj\Debug\MenuShell.Terminal.pdb
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\bin\Debug\MenuShell.dll
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\bin\Debug\MenuShell.pdb
+C:\Workspace\ECUtbildning\MenuShell\MenuShell.Terminal\obj\Debug\MenuShell.Terminal.csproj.CopyComplete
