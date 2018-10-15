@@ -53,19 +53,19 @@ namespace MenuShell.Terminal
                         var manageUsers = new ManageUsers();
 
                         manageUsers.Display();
-                        
+
                         while (true)
                         {
                             var selection = actionHandler.GetSelection();
-                            
+
                             if (selection == Selection.One)
                             {
                                 var addUserView = new AddUsers();
-                            
+
                                 addUserView.Display();
-                            
+
                                 var userCreator = new CreateUser();
-                            
+
                                 userCreator.Create();
                                 break;
                             }
@@ -73,7 +73,7 @@ namespace MenuShell.Terminal
                             if (selection == Selection.Two)
                             {
                                 var listUsers = new ListUsers();
-                                
+
                                 listUsers.Display();
 
                                 var input = Console.ReadKey(true);
@@ -89,32 +89,30 @@ namespace MenuShell.Terminal
                                 var userToDelete = actionHandler.SelectUser();
 
                                 var removeUser = new DeleteUser();
-                                
+
                                 removeUser.Delete(userToDelete);
                             }
                             else
-                            break;
+                            {
+                                break;
+                            }
                         }
                     }
                     else
                     {
                         var wishToExit = StandardMessages.WishToExit();
 
-                        if (wishToExit)
-                        {
-                            Environment.Exit(0);
-                        }
+                        if (wishToExit) Environment.Exit(0);
                     }
-                    
                 }
 
                 if (loggedUser.Role == Role.Receptionist)
                 {
-                    Console.WriteLine("This feature will be added in the next release. We know you would test it though..");
+                    Console.WriteLine(
+                        "This feature will be added in the next release. We knew you would test it though..");
                     break;
                 }
             }
-                
         }
     }
 }
