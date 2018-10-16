@@ -5,6 +5,6 @@ namespace MenuShell.Domain
         One,
         Two,
         Three,
-        GoBack 
+        GoBack
     }
 }
