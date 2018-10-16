@@ -16,10 +16,7 @@ namespace MenuShell.Views
 
             var users = loadUsers.LoadUsers();
 
-            foreach (var user in users)
-            {
-                Console.WriteLine($"# Role: {user.Role}, Username: {user.Username}\n");
-            }
+            foreach (var user in users) Console.WriteLine($"# Role: {user.Role}, Username: {user.Username}\n");
 
             Console.WriteLine("\nPress anything to go back.");
         }

@@ -53,10 +53,7 @@ namespace MenuShell.Services.AdministratorServices
     {
         public static bool Check(string role)
         {
-            if (role == "Administrator" || role == "Receptionist")
-            {
-                return true;   
-            }
+            if (role == "Administrator" || role == "Receptionist") return true;
             return false;
         }
     }

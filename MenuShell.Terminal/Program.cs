@@ -18,7 +18,8 @@ namespace MenuShell.Terminal
 
             User loggedUser = null;
 
-            while (true)
+            var mainMenu = true;
+            while (mainMenu)
             {
                 loginView.Display();
 
@@ -38,7 +39,8 @@ namespace MenuShell.Terminal
 
             var administratorView = new AdministratorView();
 
-            while (true)
+            var loginMenu = true;
+            while (loginMenu)
             {
                 if (loggedUser.Role == Role.Administrator)
                 {
@@ -53,8 +55,9 @@ namespace MenuShell.Terminal
                         var manageUsers = new ManageUsers();
 
                         manageUsers.Display();
-
-                        while (true)
+                        
+                        var userManagerMenu = true;
+                        while (userManagerMenu)
                         {
                             var selection = actionHandler.GetSelection();
 
