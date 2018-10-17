@@ -8,7 +8,9 @@
       <e p="MenuShell" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain" t="Include">
+          <e p="ActionHandler.cs" t="Include" />
           <e p="Role.cs" t="Include" />
+          <e p="RunView.cs" t="Include" />
           <e p="Selection.cs" t="Include" />
           <e p="StandardMessages.cs" t="Include" />
           <e p="User.cs" t="Include" />
@@ -23,10 +25,10 @@
         </e>
         <e p="Services" t="Include">
           <e p="AdministratorServices" t="Include">
-            <e p="ActionHandler.cs" t="Include" />
             <e p="CreateUser.cs" t="Include" />
             <e p="DeleteUser.cs" t="Include" />
             <e p="SaveUsers.cs" t="Include" />
+            <e p="SearchUsers.cs" t="Include" />
           </e>
           <e p="LoginServices" t="Include">
             <e p="Login.cs" t="Include" />
@@ -37,9 +39,9 @@
           <e p="Administrator" t="Include">
             <e p="AddUsers.cs" t="Include" />
             <e p="AdministratorView.cs" t="Include" />
-            <e p="DeleteUsers.cs" t="Include" />
             <e p="ListUsers.cs" t="Include" />
             <e p="ManageUsers.cs" t="Include" />
+            <e p="SearchUsers.cs" t="Include" />
           </e>
           <e p="BaseView.cs" t="Include" />
           <e p="Login.cs" t="Include" />

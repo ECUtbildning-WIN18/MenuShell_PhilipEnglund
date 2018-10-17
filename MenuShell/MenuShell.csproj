@@ -40,23 +40,25 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\ActionHandler.cs" />
     <Compile Include="Domain\Role.cs" />
+    <Compile Include="Domain\RunView.cs" />
     <Compile Include="Domain\Selection.cs" />
     <Compile Include="Domain\StandardMessages.cs" />
     <Compile Include="Domain\User.cs" />
     <Compile Include="Interfaces\IAuthenticationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\AdministratorServices\ActionHandler.cs" />
     <Compile Include="Services\AdministratorServices\DeleteUser.cs" />
     <Compile Include="Services\AdministratorServices\SaveUsers.cs" />
     <Compile Include="Services\AdministratorServices\CreateUser.cs" />
+    <Compile Include="Services\AdministratorServices\SearchUsers.cs" />
     <Compile Include="Services\LoginServices\Login.cs" />
     <Compile Include="Services\UserLoader.cs" />
     <Compile Include="Views\Administrator\AddUsers.cs" />
     <Compile Include="Views\Administrator\AdministratorView.cs" />
-    <Compile Include="Views\Administrator\DeleteUsers.cs" />
     <Compile Include="Views\Administrator\ListUsers.cs" />
     <Compile Include="Views\Administrator\ManageUsers.cs" />
+    <Compile Include="Views\Administrator\SearchUsers.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\Login.cs" />
   </ItemGroup>

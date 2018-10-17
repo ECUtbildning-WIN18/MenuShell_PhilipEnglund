@@ -54,5 +54,46 @@ namespace MenuShell
 
             return false;
         }
+
+        public static bool WishToLogout()
+        {
+            Console.WriteLine("Do you really want to logout? y/n");
+
+            var input = Console.ReadKey(true);
+
+            if (input.Key == ConsoleKey.Y)
+            {
+                Console.Clear();
+                return true;
+            }
+
+            return false;
+        }
+
+        public static void SuccessfullyDeletedUser(User user)
+        {
+            Success();
+            Console.WriteLine($"Deleted user: {user.Username}");
+            Thread.Sleep(1500);
+            Console.Clear();
+        }
+
+        public static void DisplayUserInfo(User user)
+        {
+            Console.Clear();
+            Console.WriteLine($"Username: {user.Username}\n" +
+                              $"Role:  {user.Role.ToString()}\n\n" +
+                              "(D)elete\n" +
+                              "ESC to go back.");
+        }
+
+        public static void Gotcha()
+        {
+            Console.Clear();
+            Console.WriteLine(
+                "This feature will be added in the next release. \n" +
+                "We knew you would test it though..");
+            Thread.Sleep(2000);
+        }
     }
 }

@@ -12,7 +12,8 @@ namespace MenuShell.Views
         public override void Display()
         {
             Console.Clear();
-            Console.WriteLine("1. Manage users.\n\n" +
+            Console.WriteLine("1. Manage users.\n" +
+                              "2. Logout\n\n" +
                               "(E)xit.");
         }
     }

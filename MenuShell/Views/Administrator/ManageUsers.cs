@@ -11,9 +11,8 @@ namespace MenuShell.Views
         public override void Display()
         {
             Console.Clear();
-            Console.WriteLine("1. Add users.\n" +
-                              "2. List users.\n" +
-                              "3. Delete users\n\n" +
+            Console.WriteLine("1. Add user.\n" +
+                              "2. Search users.\n\n" +
                               "Press enter to go back.");
         }
     }
