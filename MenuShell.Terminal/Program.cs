@@ -1,8 +1,8 @@
 ﻿using System;
+using System.Threading;
 using MenuShell.Domain;
 using MenuShell.Services.AdministratorServices;
 using MenuShell.Services.LoginServices;
-using MenuShell.Views;
 
 namespace MenuShell.Terminal
 {
@@ -12,109 +12,95 @@ namespace MenuShell.Terminal
         {
             StandardMessages.Welcome();
 
-            var loginView = new LoginView();
+            var actionHandler = new ActionHandler();
 
-            var login = new Login();
+            var tryLogin = new Login();
 
-            User loggedUser = null;
-
-            var mainMenu = true;
-            while (mainMenu)
+            var menu = true;
+            while (menu)
             {
-                loginView.Display();
+                User loggedUser = null;
 
-                var user = login.CollectUserData();
+                RunView.Login();
 
-                loggedUser = login.Validate(user);
+                var user = tryLogin.CollectUserData();
+
+                loggedUser = tryLogin.Validate(user);
 
                 if (loggedUser != null)
                 {
                     StandardMessages.Success();
                     StandardMessages.LoggedInAs(loggedUser.Role);
-                    break;
-                }
 
-                StandardMessages.TryAgain();
-            }
-
-            var administratorView = new AdministratorView();
-
-            var loginMenu = true;
-            while (loginMenu)
-            {
-                if (loggedUser.Role == Role.Administrator)
-                {
-                    administratorView.Display();
-
-                    var actionHandler = new ActionHandler();
-
-                    var select = actionHandler.GetSelection();
-
-                    if (select == Selection.One)
+                    var employeeMenu = true;
+                    while (employeeMenu)
                     {
-                        var manageUsers = new ManageUsers();
-
-                        manageUsers.Display();
-                        
-                        var userManagerMenu = true;
-                        while (userManagerMenu)
+                        if (loggedUser.Role == Role.Administrator)
                         {
-                            var selection = actionHandler.GetSelection();
+                            RunView.Administrator();
 
-                            if (selection == Selection.One)
+                            var select = actionHandler.GetSelection();
+
+                            if (select == Selection.One)
                             {
-                                var addUserView = new AddUsers();
+                                var userManagerMenu = true;
+                                while (userManagerMenu)
+                                {
+                                    RunView.ManageUsers();
+                                    var selection = actionHandler.GetSelection();
 
-                                addUserView.Display();
+                                    if (selection == Selection.One)
+                                    {
+                                        RunView.AddUsers();
 
-                                var userCreator = new CreateUser();
+                                        new CreateUser().Create();
+                                    }
 
-                                userCreator.Create();
-                                break;
+                                    if (selection == Selection.Two)
+                                    {
+                                        var searchUser = new SearchUsers();
+
+                                        var search = true;
+                                        do
+                                        {
+                                            search = searchUser.RunSearch();
+                                        } while (search);
+                                    }
+
+                                    if (selection == Selection.GoBack) break;
+                                }
                             }
 
-                            if (selection == Selection.Two)
+                            if (select == Selection.Two)
                             {
-                                var listUsers = new ListUsers();
-
-                                listUsers.Display();
-
-                                var input = Console.ReadKey(true);
-                                break;
+                                var logout = StandardMessages.WishToLogout();
+                                if (logout)
+                                    break;
                             }
 
-                            if (selection == Selection.Three)
+                            if (select == Selection.Exit)
                             {
-                                var deleteUsersView = new DeleteUsers();
+                                var wishToExit = StandardMessages.WishToExit();
+                                if (wishToExit) Environment.Exit(0);
 
-                                deleteUsersView.Display();
-
-                                var userToDelete = actionHandler.SelectUser();
-
-                                var removeUser = new DeleteUser();
-
-                                removeUser.Delete(userToDelete);
-                            }
-                            else
-                            {
+                                Console.Clear();
                                 break;
                             }
                         }
-                    }
-                    else
-                    {
-                        var wishToExit = StandardMessages.WishToExit();
 
-                        if (wishToExit) Environment.Exit(0);
+                        if (loggedUser.Role == Role.Receptionist)
+                        {
+                            Console.WriteLine(
+                                "This feature will be added in the next release. \n" +
+                                "We knew you would test it though..");
+                            Thread.Sleep(2000);
+                            break;
+                        }
                     }
                 }
 
-                if (loggedUser.Role == Role.Receptionist)
-                {
-                    Console.WriteLine(
-                        "This feature will be added in the next release. We knew you would test it though..");
-                    break;
-                }
+                if (loggedUser == null)
+                    StandardMessages.TryAgain();
             }
         }
     }

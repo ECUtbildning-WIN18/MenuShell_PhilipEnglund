@@ -1,24 +1,25 @@
 using System;
-using MenuShell.Services;
+using System.Collections.Generic;
+using MenuShell.Domain;
 
 namespace MenuShell.Views
 {
-    public class ListUsers : BaseView
+    public class ListUsers
     {
-        public ListUsers() : base("All users")
-        {
-        }
-
-        public override void Display()
+        public void Display(List<User> users)
         {
             Console.Clear();
-            var loadUsers = new UserLoader();
 
-            var users = loadUsers.LoadUsers();
+            var count = 1;
 
-            foreach (var user in users) Console.WriteLine($"# Role: {user.Role}, Username: {user.Username}\n");
+            foreach (var user in users)
+            {
+                Console.WriteLine($"{count} Role: {user.Role}, Username: {user.Username}\n");
+                count++;
+            }
 
-            Console.WriteLine("\nPress anything to go back.");
+
+            Console.WriteLine("\nPress number to view user details.");
         }
     }
 }
