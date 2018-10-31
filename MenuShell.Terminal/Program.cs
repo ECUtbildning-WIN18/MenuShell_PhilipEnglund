@@ -1,7 +1,9 @@
 ﻿using System;
 using MenuShell.Domain;
+using MenuShell.Services;
 using MenuShell.Services.AdministratorServices;
 using MenuShell.Services.LoginServices;
+using MenuShell.Services.Searching;
 using MenuShell.Views;
 
 namespace MenuShell.Terminal
@@ -82,15 +84,33 @@ namespace MenuShell.Terminal
 
                             if (selection == Selection.Three)
                             {
-                                var deleteUsersView = new DeleteUsers();
+                                var searching = true;
+                                while (searching)
+                                {
+                                    new UserSearch().Display();
 
-                                deleteUsersView.Display();
+                                    var searchResult = new SearchUser().Search();
 
-                                var userToDelete = actionHandler.SelectUser();
+                                    if (searchResult != null && searchResult.Count != 0)
+                                    {
+                                        new PrintSearchResult().Display(searchResult);
 
-                                var removeUser = new DeleteUser();
+                                        var viewUser = new SelectSearchResult().SelectUser(searchResult);
 
-                                removeUser.Delete(userToDelete);
+                                        if (viewUser != null)
+                                        {
+                                            new ViewUserDetails().Display(viewUser);
+
+                                            var DeleteOrExit = actionHandler.GetSelection();
+
+                                            if (DeleteOrExit == Selection.Delete)
+                                                new UserDeleter().Delete(viewUser);
+                                                StandardMessages.Success();
+                                        }
+                                    }
+                                    
+                                    break;
+                                }
                             }
                             else
                             {

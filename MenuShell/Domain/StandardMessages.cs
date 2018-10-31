@@ -50,12 +50,16 @@ namespace MenuShell
 
             var input = Console.ReadKey(true);
 
-            if (input.Key == ConsoleKey.Y)
-            {
-                return true;
-            }
+            if (input.Key == ConsoleKey.Y) return true;
 
             return false;
+        }
+
+        public static void NoMatch()
+        {
+            Console.Clear();
+            Console.WriteLine("No match, try again");
+            Thread.Sleep(1200);
         }
     }
 }

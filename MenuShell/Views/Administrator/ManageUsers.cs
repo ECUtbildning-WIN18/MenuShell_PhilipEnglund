@@ -13,7 +13,7 @@ namespace MenuShell.Views
             Console.Clear();
             Console.WriteLine("1. Add users.\n" +
                               "2. List users.\n" +
-                              "3. Delete users\n\n" +
+                              "3. Search users\n\n" +
                               "Press enter to go back.");
         }
     }

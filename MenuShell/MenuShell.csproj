@@ -47,16 +47,23 @@
     <Compile Include="Interfaces\IAuthenticationService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AdministratorServices\ActionHandler.cs" />
-    <Compile Include="Services\AdministratorServices\DeleteUser.cs" />
-    <Compile Include="Services\AdministratorServices\SaveUsers.cs" />
     <Compile Include="Services\AdministratorServices\CreateUser.cs" />
+    <Compile Include="Services\AdministratorServices\SearchUser.cs" />
+    <Compile Include="Services\UserDeleter.cs" />
     <Compile Include="Services\LoginServices\Login.cs" />
+    <Compile Include="Services\Searching\PrintSearchResult.cs" />
+    <Compile Include="Services\Searching\SelectSearchResult.cs" />
+    <Compile Include="Services\Searching\UserSearcher.cs" />
+    <Compile Include="Services\Searching\ViewUserDetails.cs" />
+    <Compile Include="Services\UserSaver.cs" />
+    <Compile Include="Services\SqlHelp.cs" />
     <Compile Include="Services\UserLoader.cs" />
     <Compile Include="Views\Administrator\AddUsers.cs" />
     <Compile Include="Views\Administrator\AdministratorView.cs" />
     <Compile Include="Views\Administrator\DeleteUsers.cs" />
     <Compile Include="Views\Administrator\ListUsers.cs" />
     <Compile Include="Views\Administrator\ManageUsers.cs" />
+    <Compile Include="Views\Administrator\SearchUsers.cs" />
     <Compile Include="Views\BaseView.cs" />
     <Compile Include="Views\Login.cs" />
   </ItemGroup>

@@ -1,5 +1,4 @@
 using System;
-using System.Diagnostics.PerformanceData;
 using MenuShell.Services;
 
 namespace MenuShell.Views
@@ -16,8 +15,8 @@ namespace MenuShell.Views
             var loadUsers = new UserLoader();
 
             var users = loadUsers.LoadUsers();
-            int counter = 0;
-            
+            var counter = 0;
+
             foreach (var user in users)
             {
                 Console.WriteLine($"{counter}. Role: {user.Role}, Username: {user.Username}\n");

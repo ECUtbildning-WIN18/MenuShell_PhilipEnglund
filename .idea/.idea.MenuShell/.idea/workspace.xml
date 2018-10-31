@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6ffd50a-bbe6-4a17-8583-e7eaf84236f3" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/MenuShell/Domain/Role.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MenuShell/Domain/Selection.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/MenuShell/Domain/StandardMessages.cs" afterDir="false" />
@@ -27,6 +28,10 @@
       <change beforePath="$PROJECT_DIR$/MenuShell/Class1.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuShell/MenuShell.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MenuShell/MenuShell.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuShell/obj/Debug/MenuShell.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MenuShell/obj/Debug/MenuShell.csprojAssemblyReference.cache" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MenuShell/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MenuShell/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MenuShell/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MenuShell/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +43,37 @@
     <session id="853513564">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.5" value="1" />
+<<<<<<< Updated upstream
           <entry key="project.open.time.7" value="2" />
           <entry key="project.opened" value="5" />
+=======
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="12" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="cs" value="62" />
+=======
+          <entry key="cs" value="70" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< Updated upstream
           <entry key="C#" value="62" />
+=======
+          <entry key="C#" value="70" />
+>>>>>>> Stashed changes
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,12 +89,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <splitter split-orientation="horizontal" split-proportion="0.48728815">
+=======
+    <splitter split-orientation="horizontal" split-proportion="0.59090906">
+>>>>>>> Stashed changes
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MenuShell.Terminal/Program.cs">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
                 <state relative-caret-position="-779">
                   <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
                   <folding>
@@ -94,11 +119,31 @@
                     <marker date="1539633613785" expanded="true" signature="3128:3386" ph="{...}" />
                     <marker date="1539633613785" expanded="true" signature="3263:3364" ph="{...}" />
                     <marker date="1539633613785" expanded="true" signature="3484:3672" ph="{...}" />
+=======
+                <state relative-caret-position="529">
+                  <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+                  <folding>
+                    <marker date="1539787155151" expanded="false" signature="6:149" ph="..." />
+                    <marker date="1539787155151" expanded="true" signature="208:3689" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="261:3683" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="461:3673" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="701:3569" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="920:3551" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="1009:3122" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="1218:2456" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="1364:2426" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="1608:1812" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="1881:2313" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="2514:2739" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="2798:3096" ph="{...}" />
+                    <marker date="1539787155151" expanded="true" signature="3189:3529" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< Updated upstream
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MenuShell/Services/LoginServices/Login.cs">
               <provider selected="true" editor-type-id="text-editor">
@@ -112,6 +157,23 @@
                     <marker date="1539611848625" expanded="true" signature="415:749" ph="{...}" />
                     <marker date="1539611848625" expanded="true" signature="619:735" ph="{...}" />
                     <marker date="1539611848625" expanded="true" signature="880:1133" ph="{...}" />
+=======
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/SearchUsers.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+                  <folding>
+                    <marker date="1539787155239" expanded="false" signature="6:84" ph="..." />
+                    <marker date="1539787155239" expanded="true" signature="136:2111" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="167:2109" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="205:2103" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="240:2093" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="508:894" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="1060:1944" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="1279:1837" ph="{...}" />
+                    <marker date="1539787155239" expanded="true" signature="1503:1768" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -123,11 +185,17 @@
                 <state relative-caret-position="304">
                   <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539632485231" expanded="false" signature="6:94" ph="..." />
                     <marker date="1539632485231" expanded="true" signature="124:822" ph="{...}" />
                     <marker date="1539632485231" expanded="true" signature="154:820" ph="{...}" />
                     <marker date="1539632485231" expanded="true" signature="198:814" ph="{...}" />
                     <marker date="1539632485231" expanded="true" signature="390:777" ph="{...}" />
+=======
+                    <marker date="1539787155136" expanded="true" signature="81:378" ph="{...}" />
+                    <marker date="1539787155136" expanded="true" signature="138:158" ph="{...}" />
+                    <marker date="1539787155136" expanded="true" signature="198:372" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -139,6 +207,7 @@
                 <state relative-caret-position="878">
                   <caret line="69" column="65" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539633296809" expanded="false" signature="6:98" ph="..." />
                     <marker date="1539633296809" expanded="true" signature="150:1749" ph="{...}" />
                     <marker date="1539633296809" expanded="true" signature="183:1747" ph="{...}" />
@@ -154,6 +223,11 @@
                     <marker date="1539633296809" expanded="true" signature="1297:1741" ph="{...}" />
                     <marker date="1539633296809" expanded="true" signature="1426:1731" ph="{...}" />
                     <marker date="1539633296809" expanded="true" signature="1573:1651" ph="{...}" />
+=======
+                    <marker date="1539771954097" expanded="true" signature="82:417" ph="{...}" />
+                    <marker date="1539771954097" expanded="true" signature="140:160" ph="{...}" />
+                    <marker date="1539771954097" expanded="true" signature="200:411" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -165,6 +239,7 @@
                 <state relative-caret-position="465">
                   <caret line="60" column="9" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539625707499" expanded="false" signature="6:61" ph="..." />
                     <marker date="1539625707499" expanded="true" signature="113:2065" ph="{...}" />
                     <marker date="1539625707499" expanded="true" signature="143:1458" ph="{...}" />
@@ -178,6 +253,14 @@
                     <marker date="1539625707499" expanded="true" signature="1615:1675" ph="{...}" />
                     <marker date="1539625707499" expanded="true" signature="1745:2063" ph="{...}" />
                     <marker date="1539625707499" expanded="true" signature="1806:2057" ph="{...}" />
+=======
+                    <marker date="1539611848625" expanded="false" signature="6:65" ph="..." />
+                    <marker date="1539611848625" expanded="true" signature="159:1139" ph="{...}" />
+                    <marker date="1539611848625" expanded="true" signature="203:839" ph="{...}" />
+                    <marker date="1539611848625" expanded="true" signature="415:749" ph="{...}" />
+                    <marker date="1539611848625" expanded="true" signature="619:735" ph="{...}" />
+                    <marker date="1539611848625" expanded="true" signature="880:1133" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -189,10 +272,20 @@
                 <state relative-caret-position="304">
                   <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539610996511" expanded="true" signature="40:470" ph="{...}" />
                     <marker date="1539610996511" expanded="true" signature="82:468" ph="{...}" />
                     <marker date="1539610996511" expanded="true" signature="140:160" ph="{...}" />
                     <marker date="1539610996511" expanded="true" signature="200:462" ph="{...}" />
+=======
+                    <marker date="1539787155224" expanded="false" signature="6:71" ph="..." />
+                    <marker date="1539787155224" expanded="true" signature="156:1133" ph="{...}" />
+                    <marker date="1539787155224" expanded="true" signature="202:713" ph="{...}" />
+                    <marker date="1539787155224" expanded="true" signature="291:703" ph="{...}" />
+                    <marker date="1539787155224" expanded="true" signature="769:1127" ph="{...}" />
+                    <marker date="1539787155224" expanded="true" signature="804:1117" ph="{...}" />
+                    <marker date="1539787155224" expanded="true" signature="928:1036" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -204,12 +297,19 @@
                 <state relative-caret-position="304">
                   <caret line="17" selection-start-line="17" selection-end-line="17" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539624672476" expanded="false" signature="6:39" ph="..." />
                     <marker date="1539624672476" expanded="true" signature="66:591" ph="{...}" />
                     <marker date="1539624672476" expanded="true" signature="106:589" ph="{...}" />
                     <marker date="1539624672476" expanded="true" signature="159:179" ph="{...}" />
                     <marker date="1539624672476" expanded="true" signature="219:583" ph="{...}" />
                     <marker date="1539624672476" expanded="true" signature="393:509" ph="{...}" />
+=======
+                    <marker date="1539787155175" expanded="false" signature="6:72" ph="..." />
+                    <marker date="1539787155175" expanded="true" signature="127:523" ph="{...}" />
+                    <marker date="1539787155175" expanded="true" signature="179:517" ph="{...}" />
+                    <marker date="1539787155175" expanded="true" signature="287:434" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -221,10 +321,16 @@
                 <state relative-caret-position="285">
                   <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539611928595" expanded="true" signature="40:368" ph="{...}" />
                     <marker date="1539611928595" expanded="true" signature="88:366" ph="{...}" />
                     <marker date="1539611928595" expanded="true" signature="153:173" ph="{...}" />
                     <marker date="1539611928595" expanded="true" signature="214:360" ph="{...}" />
+=======
+                    <marker date="1539766315535" expanded="true" signature="88:412" ph="{...}" />
+                    <marker date="1539766315535" expanded="true" signature="153:173" ph="{...}" />
+                    <marker date="1539766315535" expanded="true" signature="214:406" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -236,8 +342,12 @@
                 <state relative-caret-position="133">
                   <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539623646697" expanded="true" signature="26:125" ph="{...}" />
                     <marker date="1539623646697" expanded="true" signature="54:123" ph="{...}" />
+=======
+                    <marker date="1539786602186" expanded="true" signature="54:136" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -261,11 +371,19 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MenuShell.Terminal/Program.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="384">
                   <caret line="92" column="64" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
+=======
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MenuShell/Domain/StandardMessages.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="575">
+                  <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+>>>>>>> Stashed changes
                   <folding>
                     <marker date="1539633613785" expanded="false" signature="6:148" ph="..." />
                     <marker date="1539633613785" expanded="true" signature="178:3721" ph="{...}" />
@@ -288,12 +406,29 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MenuShell/Services/UserLoader.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="690">
+                  <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+                  <folding>
+                    <marker date="1539632485231" expanded="false" signature="6:94" ph="..." />
+                    <marker date="1539632485231" expanded="true" signature="124:822" ph="{...}" />
+                    <marker date="1539632485231" expanded="true" signature="154:820" ph="{...}" />
+                    <marker date="1539632485231" expanded="true" signature="198:814" ph="{...}" />
+                    <marker date="1539632485231" expanded="true" signature="390:777" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/MenuShell/Domain/StandardMessages.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="669">
                   <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539613229990" expanded="false" signature="6:61" ph="..." />
                     <marker date="1539613229990" expanded="true" signature="82:1705" ph="{...}" />
                     <marker date="1539613229990" expanded="true" signature="125:1703" ph="{...}" />
@@ -303,6 +438,11 @@
                     <marker date="1539613229990" expanded="true" signature="1258:1394" ph="{...}" />
                     <marker date="1539613229990" expanded="true" signature="1435:1697" ph="{...}" />
                     <marker date="1539613229990" expanded="true" signature="1603:1660" ph="{...}" />
+=======
+                    <marker date="1539611928611" expanded="false" signature="6:46" ph="..." />
+                    <marker date="1539611928611" expanded="true" signature="126:591" ph="{...}" />
+                    <marker date="1539611928611" expanded="true" signature="172:585" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -314,10 +454,16 @@
                 <state relative-caret-position="399">
                   <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539611928611" expanded="false" signature="6:46" ph="..." />
                     <marker date="1539611928611" expanded="true" signature="98:593" ph="{...}" />
                     <marker date="1539611928611" expanded="true" signature="126:591" ph="{...}" />
                     <marker date="1539611928611" expanded="true" signature="172:585" ph="{...}" />
+=======
+                    <marker date="1539634398742" expanded="false" signature="6:46" ph="..." />
+                    <marker date="1539634398742" expanded="true" signature="128:510" ph="{...}" />
+                    <marker date="1539634398742" expanded="true" signature="172:504" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -329,12 +475,16 @@
                 <state relative-caret-position="437">
                   <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
                   <folding>
+<<<<<<< Updated upstream
                     <marker date="1539628003022" expanded="true" signature="6:81" ph="..." />
                     <marker date="1539628003022" expanded="true" signature="108:653" ph="{...}" />
                     <marker date="1539628003022" expanded="true" signature="150:651" ph="{...}" />
                     <marker date="1539628003022" expanded="true" signature="208:228" ph="{...}" />
                     <marker date="1539628003022" expanded="true" signature="268:645" ph="{...}" />
                     <marker date="1539628003022" expanded="true" signature="483:635" ph="{...}" />
+=======
+                    <marker date="1539633816050" expanded="true" signature="49:105" ph="{...}" />
+>>>>>>> Stashed changes
                   </folding>
                 </state>
               </provider>
@@ -363,7 +513,6 @@
                 <state relative-caret-position="437">
                   <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                   <folding>
-                    <marker date="1539611863624" expanded="true" signature="40:845" ph="{...}" />
                     <marker date="1539611863624" expanded="true" signature="80:843" ph="{...}" />
                     <marker date="1539611863624" expanded="true" signature="129:149" ph="{...}" />
                     <marker date="1539611863624" expanded="true" signature="189:837" ph="{...}" />
@@ -372,6 +521,26 @@
               </provider>
             </entry>
           </file>
+<<<<<<< Updated upstream
+=======
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/MenuShell/Domain/RunView.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="897">
+                  <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+                  <folding>
+                    <marker date="1539787155194" expanded="true" signature="84:813" ph="{...}" />
+                    <marker date="1539787155194" expanded="true" signature="125:224" ph="{...}" />
+                    <marker date="1539787155194" expanded="true" signature="268:365" ph="{...}" />
+                    <marker date="1539787155194" expanded="true" signature="407:512" ph="{...}" />
+                    <marker date="1539787155194" expanded="true" signature="551:653" ph="{...}" />
+                    <marker date="1539787155194" expanded="true" signature="695:807" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+>>>>>>> Stashed changes
         </leaf>
       </split-second>
     </splitter>
@@ -477,18 +646,32 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MenuShell" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MenuShell" type="24d0babc:SolutionExplorerModelNode" />
+<<<<<<< Updated upstream
               <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+=======
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="AdministratorServices" type="24d0babc:SolutionExplorerModelNode" />
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MenuShell" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MenuShell" type="24d0babc:SolutionExplorerModelNode" />
+<<<<<<< Updated upstream
               <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="MenuShell" type="24d0babc:SolutionExplorerModelNode" />
               <item name="MenuShell.Terminal" type="24d0babc:SolutionExplorerModelNode" />
+=======
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LoginServices" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+>>>>>>> Stashed changes
             </path>
           </expand>
           <select />
@@ -499,6 +682,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -551,12 +735,27 @@
       <workItem from="1539505746650" duration="4407000" />
       <workItem from="1539592072961" duration="20465000" />
       <workItem from="1539615100769" duration="1422000" />
+<<<<<<< Updated upstream
       <workItem from="1539622799622" duration="10806000" />
+=======
+      <workItem from="1539622799622" duration="11589000" />
+      <workItem from="1539672786683" duration="17062000" />
+      <workItem from="1539760678072" duration="21070000" />
+      <workItem from="1539854116009" duration="110000" />
+      <workItem from="1539859401492" duration="2215000" />
+      <workItem from="1539968841357" duration="599000" />
+      <workItem from="1539971290565" duration="18000" />
+      <workItem from="1540883734385" duration="923000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="39953000" />
+=======
+    <option name="totallyTimeSpent" value="82733000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,9 +768,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+<<<<<<< Updated upstream
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120469086" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20340788" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -594,7 +796,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.32960597" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
@@ -636,6 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MenuShell/Domain/Role.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="95">
           <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
@@ -663,10 +866,45 @@
             <marker date="1539611499990" expanded="true" signature="79:471" ph="{...}" />
             <marker date="1539611499990" expanded="true" signature="131:151" ph="{...}" />
             <marker date="1539611499990" expanded="true" signature="191:465" ph="{...}" />
+=======
+        <state relative-caret-position="345">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/CreateUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/DeleteUsers.cs" />
+    <entry file="file://$PROJECT_DIR$/MenuShell.Terminal/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding>
+            <marker date="1539787155151" expanded="false" signature="6:149" ph="..." />
+            <marker date="1539787155151" expanded="true" signature="208:3689" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="261:3683" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="461:3673" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="701:3569" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="920:3551" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="1009:3122" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="1218:2456" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="1364:2426" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="1608:1812" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="1881:2313" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="2514:2739" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="2798:3096" ph="{...}" />
+            <marker date="1539787155151" expanded="true" signature="3189:3529" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Domain/Selection.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -674,10 +912,21 @@
           <folding>
             <marker date="1539623646697" expanded="true" signature="26:125" ph="{...}" />
             <marker date="1539623646697" expanded="true" signature="54:123" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/SearchUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1539787155136" expanded="true" signature="81:378" ph="{...}" />
+            <marker date="1539787155136" expanded="true" signature="138:158" ph="{...}" />
+            <marker date="1539787155136" expanded="true" signature="198:372" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Domain/StandardMessages.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
@@ -692,6 +941,16 @@
             <marker date="1539613229990" expanded="true" signature="1258:1394" ph="{...}" />
             <marker date="1539613229990" expanded="true" signature="1435:1697" ph="{...}" />
             <marker date="1539613229990" expanded="true" signature="1603:1660" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/ManageUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+          <folding>
+            <marker date="1539771954097" expanded="true" signature="82:417" ph="{...}" />
+            <marker date="1539771954097" expanded="true" signature="140:160" ph="{...}" />
+            <marker date="1539771954097" expanded="true" signature="200:411" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -702,7 +961,6 @@
           <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <marker date="1539611848625" expanded="false" signature="6:65" ph="..." />
-            <marker date="1539611848625" expanded="true" signature="109:1141" ph="{...}" />
             <marker date="1539611848625" expanded="true" signature="159:1139" ph="{...}" />
             <marker date="1539611848625" expanded="true" signature="203:839" ph="{...}" />
             <marker date="1539611848625" expanded="true" signature="415:749" ph="{...}" />
@@ -712,6 +970,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/CreateUser.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -730,6 +989,33 @@
             <marker date="1539625707499" expanded="true" signature="1615:1675" ph="{...}" />
             <marker date="1539625707499" expanded="true" signature="1745:2063" ph="{...}" />
             <marker date="1539625707499" expanded="true" signature="1806:2057" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/ActionHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <marker date="1539787155224" expanded="false" signature="6:71" ph="..." />
+            <marker date="1539787155224" expanded="true" signature="156:1133" ph="{...}" />
+            <marker date="1539787155224" expanded="true" signature="202:713" ph="{...}" />
+            <marker date="1539787155224" expanded="true" signature="291:703" ph="{...}" />
+            <marker date="1539787155224" expanded="true" signature="769:1127" ph="{...}" />
+            <marker date="1539787155224" expanded="true" signature="804:1117" ph="{...}" />
+            <marker date="1539787155224" expanded="true" signature="928:1036" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/ListUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1539787155175" expanded="false" signature="6:72" ph="..." />
+            <marker date="1539787155175" expanded="true" signature="127:523" ph="{...}" />
+            <marker date="1539787155175" expanded="true" signature="179:517" ph="{...}" />
+            <marker date="1539787155175" expanded="true" signature="287:434" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -739,16 +1025,23 @@
         <state relative-caret-position="437">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
+<<<<<<< Updated upstream
             <marker date="1539628003022" expanded="true" signature="6:81" ph="..." />
             <marker date="1539628003022" expanded="true" signature="108:653" ph="{...}" />
             <marker date="1539628003022" expanded="true" signature="150:651" ph="{...}" />
             <marker date="1539628003022" expanded="true" signature="208:228" ph="{...}" />
             <marker date="1539628003022" expanded="true" signature="268:645" ph="{...}" />
             <marker date="1539628003022" expanded="true" signature="483:635" ph="{...}" />
+=======
+            <marker date="1539766315535" expanded="true" signature="88:412" ph="{...}" />
+            <marker date="1539766315535" expanded="true" signature="153:173" ph="{...}" />
+            <marker date="1539766315535" expanded="true" signature="214:406" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/AdministratorView.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -758,6 +1051,14 @@
             <marker date="1539611928595" expanded="true" signature="88:366" ph="{...}" />
             <marker date="1539611928595" expanded="true" signature="153:173" ph="{...}" />
             <marker date="1539611928595" expanded="true" signature="214:360" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/Selection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1539786602186" expanded="true" signature="54:136" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -767,14 +1068,21 @@
         <state relative-caret-position="304">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
           <folding>
+<<<<<<< Updated upstream
             <marker date="1539610996511" expanded="true" signature="40:470" ph="{...}" />
             <marker date="1539610996511" expanded="true" signature="82:468" ph="{...}" />
             <marker date="1539610996511" expanded="true" signature="140:160" ph="{...}" />
             <marker date="1539610996511" expanded="true" signature="200:462" ph="{...}" />
+=======
+            <marker date="1539611499990" expanded="true" signature="79:471" ph="{...}" />
+            <marker date="1539611499990" expanded="true" signature="131:151" ph="{...}" />
+            <marker date="1539611499990" expanded="true" signature="191:465" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Views/Administrator/ListUsers.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -786,6 +1094,44 @@
             <marker date="1539624672476" expanded="true" signature="159:179" ph="{...}" />
             <marker date="1539624672476" expanded="true" signature="219:583" ph="{...}" />
             <marker date="1539624672476" expanded="true" signature="393:509" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/SearchUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="56" selection-start-line="23" selection-start-column="56" selection-end-line="23" selection-end-column="56" />
+          <folding>
+            <marker date="1539787155239" expanded="false" signature="6:84" ph="..." />
+            <marker date="1539787155239" expanded="true" signature="136:2111" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="167:2109" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="205:2103" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="240:2093" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="508:894" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="1060:1944" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="1279:1837" ph="{...}" />
+            <marker date="1539787155239" expanded="true" signature="1503:1768" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/StandardMessages.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+          <folding>
+            <marker date="1539787155208" expanded="false" signature="6:61" ph="..." />
+            <marker date="1539787155208" expanded="true" signature="82:2839" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="125:2837" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="168:780" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="819:1008" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="1046:1208" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="1258:1394" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="1435:1653" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="1696:1993" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="1866:1956" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="2056:2225" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="2280:2556" ph="{...}" />
+            <marker date="1539787155208" expanded="true" signature="2593:2831" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
@@ -796,13 +1142,13 @@
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <marker date="1539611928611" expanded="false" signature="6:46" ph="..." />
-            <marker date="1539611928611" expanded="true" signature="98:593" ph="{...}" />
             <marker date="1539611928611" expanded="true" signature="126:591" ph="{...}" />
             <marker date="1539611928611" expanded="true" signature="172:585" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Services/UserLoader.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -828,16 +1174,54 @@
             <marker date="1539632704804" expanded="true" signature="220:618" ph="{...}" />
             <marker date="1539632704804" expanded="true" signature="371:572" ph="{...}" />
             <marker date="1539632704804" expanded="true" signature="457:558" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/DeleteUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <marker date="1539634398742" expanded="false" signature="6:46" ph="..." />
+            <marker date="1539634398742" expanded="true" signature="128:510" ph="{...}" />
+            <marker date="1539634398742" expanded="true" signature="172:504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/Role.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1539633816050" expanded="true" signature="49:105" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1539610996523" expanded="true" signature="50:494" ph="{...}" />
+            <marker date="1539610996523" expanded="true" signature="121:232" ph="{...}" />
+            <marker date="1539610996523" expanded="true" signature="287:373" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MenuShell/Views/Login.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="437">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <marker date="1539611863624" expanded="true" signature="40:845" ph="{...}" />
+=======
+        <state relative-caret-position="483">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+>>>>>>> Stashed changes
             <marker date="1539611863624" expanded="true" signature="80:843" ph="{...}" />
             <marker date="1539611863624" expanded="true" signature="129:149" ph="{...}" />
             <marker date="1539611863624" expanded="true" signature="189:837" ph="{...}" />
@@ -845,6 +1229,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/MenuShell/Services/AdministratorServices/ActionHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="878">
@@ -865,12 +1250,26 @@
             <marker date="1539633296809" expanded="true" signature="1297:1741" ph="{...}" />
             <marker date="1539633296809" expanded="true" signature="1426:1731" ph="{...}" />
             <marker date="1539633296809" expanded="true" signature="1573:1651" ph="{...}" />
+=======
+    <entry file="file://$PROJECT_DIR$/MenuShell/Domain/RunView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+          <folding>
+            <marker date="1539787155194" expanded="true" signature="84:813" ph="{...}" />
+            <marker date="1539787155194" expanded="true" signature="125:224" ph="{...}" />
+            <marker date="1539787155194" expanded="true" signature="268:365" ph="{...}" />
+            <marker date="1539787155194" expanded="true" signature="407:512" ph="{...}" />
+            <marker date="1539787155194" expanded="true" signature="551:653" ph="{...}" />
+            <marker date="1539787155194" expanded="true" signature="695:807" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MenuShell.Terminal/Program.cs">
+    <entry file="file://$PROJECT_DIR$/MenuShell/Services/UserLoader.cs">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="-779">
           <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding>
@@ -890,6 +1289,16 @@
             <marker date="1539633613785" expanded="true" signature="3128:3386" ph="{...}" />
             <marker date="1539633613785" expanded="true" signature="3263:3364" ph="{...}" />
             <marker date="1539633613785" expanded="true" signature="3484:3672" ph="{...}" />
+=======
+        <state relative-caret-position="690">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1539632485231" expanded="false" signature="6:94" ph="..." />
+            <marker date="1539632485231" expanded="true" signature="124:822" ph="{...}" />
+            <marker date="1539632485231" expanded="true" signature="154:820" ph="{...}" />
+            <marker date="1539632485231" expanded="true" signature="198:814" ph="{...}" />
+            <marker date="1539632485231" expanded="true" signature="390:777" ph="{...}" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>

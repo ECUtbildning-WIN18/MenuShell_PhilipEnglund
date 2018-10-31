@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\phili\.Rider2018.2\config\consoles\db" t="IncludeRecursive" />
     <e p="C:\Users\phili\.Rider2018.2\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\phili\.Rider2018.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\phili\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_MenuShell.594617114.00" t="ExcludeRecursive" />
@@ -25,13 +26,21 @@
           <e p="AdministratorServices" t="Include">
             <e p="ActionHandler.cs" t="Include" />
             <e p="CreateUser.cs" t="Include" />
-            <e p="DeleteUser.cs" t="Include" />
-            <e p="SaveUsers.cs" t="Include" />
+            <e p="SearchUser.cs" t="Include" />
           </e>
           <e p="LoginServices" t="Include">
             <e p="Login.cs" t="Include" />
           </e>
+          <e p="Searching" t="Include">
+            <e p="PrintSearchResult.cs" t="Include" />
+            <e p="SelectSearchResult.cs" t="Include" />
+            <e p="UserSearcher.cs" t="Include" />
+            <e p="ViewUserDetails.cs" t="Include" />
+          </e>
+          <e p="SqlHelp.cs" t="Include" />
+          <e p="UserDeleter.cs" t="Include" />
           <e p="UserLoader.cs" t="Include" />
+          <e p="UserSaver.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="Administrator" t="Include">
@@ -40,6 +49,7 @@
             <e p="DeleteUsers.cs" t="Include" />
             <e p="ListUsers.cs" t="Include" />
             <e p="ManageUsers.cs" t="Include" />
+            <e p="SearchUsers.cs" t="Include" />
           </e>
           <e p="BaseView.cs" t="Include" />
           <e p="Login.cs" t="Include" />

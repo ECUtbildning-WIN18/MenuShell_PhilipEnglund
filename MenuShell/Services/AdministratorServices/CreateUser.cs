@@ -31,7 +31,7 @@ namespace MenuShell.Services.AdministratorServices
 
                     if (userNotExist)
                     {
-                        var saveUser = new UserSave();
+                        var saveUser = new UserSaver();
 
                         saveUser.SaveUser(user);
                         StandardMessages.Success();
@@ -53,10 +53,7 @@ namespace MenuShell.Services.AdministratorServices
     {
         public static bool Check(string role)
         {
-            if (role == "Administrator" || role == "Receptionist")
-            {
-                return true;   
-            }
+            if (role == "Administrator" || role == "Receptionist") return true;
             return false;
         }
     }

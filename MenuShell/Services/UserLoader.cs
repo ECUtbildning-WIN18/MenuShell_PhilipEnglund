@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Xml.Linq;
+using System.Data.SqlClient;
 using MenuShell.Domain;
 
 namespace MenuShell.Services
@@ -11,21 +11,51 @@ namespace MenuShell.Services
         {
             var users = new List<User>();
 
-            var doc = XDocument.Load("Users.xml");
+            var connection = SqlHelp.ConnectToDatabase();
 
-            var root = doc.Root;
+            var userTable = new SqlCommand("WITH UserData AS " +
+                                                          "(SELECT ROW_NUMBER() OVER(ORDER BY Username) as Row#," +
+                                                          " * FROM [User])" +
+                                                          $" SELECT * FROM UserData", connection);
 
-            foreach (var element in root.Elements())
+            using (connection)
             {
-                var username = element.Element("username").Value;
-                var role = element.Element("role").Value;
-                var password = element.Element("password").Value;
+                connection.Open();
 
-                var access = (Role) Enum.Parse(typeof(Role), role);
+                var readUserTable = userTable.ExecuteReader();
+                var userTableRows = new List<string>();
+                while (readUserTable.Read())
+                {
+                    userTableRows.Add(readUserTable[1].ToString());
+                }
+                    
+                readUserTable.Close();
 
-                var user = new User(username, password, access);
+                if (userTableRows.Count != 0)
+                    for (var i = 1; i <= userTableRows.Count; i++)
+                    {
+                        var userData = new SqlCommand("WITH UserData AS " +
+                                                      "(SELECT ROW_NUMBER() OVER(ORDER BY Username) as Row#," +
+                                                      " Username, Password, Role FROM [User])" +
+                                                      $" SELECT * FROM UserData WHERE Row# = {i};", connection);
 
-                users.Add(user);
+                        var readUserData = userData.ExecuteReader();
+
+                        while (readUserData.Read())
+                        {
+                            var username = readUserData[1].ToString();
+                            var password = readUserData[2].ToString();
+                            var role = readUserData[3].ToString();
+
+                            var access = (Role) Enum.Parse(typeof(Role), role);
+
+                            users.Add(new User(username, password, access));
+                        }
+                        
+                        readUserData.Close();
+                    }
+
+                connection.Close();
             }
 
             return users;
